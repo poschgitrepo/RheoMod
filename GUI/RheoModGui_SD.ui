@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RHEO_MOD</class>
+ <widget class="QDialog" name="RHEO_MOD">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1254</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Rheo Mod - Evaluation of Rheological Model</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>PIC/ICON.png</normaloff>PIC/ICON.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QGroupBox" name="Base_Modell_and_Parameter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>571</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Base Model and Parameter</string>
+   </property>
+   <widget class="QTabWidget" name="PARAMETER_BOX">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>551</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="HOOK">
+     <attribute name="title">
+      <string>Hook</string>
+     </attribute>
+     <widget class="QDoubleSpinBox" name="VAL_E_HOOK">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>20.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E_HOOK">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="RHEO_BOX_HOOK">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>281</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_HOOK">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>261</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Hook.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="NEO_HOOK">
+     <attribute name="title">
+      <string>Neo Hook</string>
+     </attribute>
+     <widget class="QDoubleSpinBox" name="VAL_E_NEO_HOOK">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>30.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E_NEO_HOOK">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="RHEO_BOX_NEO_HOOK">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>281</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_NEO_HOOK">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>261</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Hook.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="MAXWELL">
+     <attribute name="title">
+      <string>Maxwell</string>
+     </attribute>
+     <widget class="QDoubleSpinBox" name="VAL_E_MAXWELL">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E_MAXWELL">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="RHEO_BOX_MAXWELL">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>311</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_MAXWELL">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>261</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Maxwell.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_ETA_MEXWELL">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>η</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_ETA_MAXWELL">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1333.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="KELVINVOIGT">
+     <attribute name="title">
+      <string>Kelvin Voigt</string>
+     </attribute>
+     <widget class="QDoubleSpinBox" name="VAL_ETA_KELVIN_VOIGT">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1333.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E_KELVIN_VOIGT">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_ETA_KELVIN_VOIGT">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>η</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E_KELVIN_VOIGT">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="RHEO_BOX_KELVIN_VOIGT">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>281</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_KELVIN_VOIGT">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>261</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_KelvinVoigt.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ZENER">
+     <attribute name="title">
+      <string>Zener</string>
+     </attribute>
+     <widget class="QGroupBox" name="RHEO_BOX_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>281</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_ZENER">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>221</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Zener.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E1_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E1 [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_ETA_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>η</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_ETA_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>70</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1333.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E1_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E2_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E2 [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E2_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="PERZYNA">
+     <attribute name="title">
+      <string>Perzyna</string>
+     </attribute>
+     <widget class="QLabel" name="LABEL_VAL_E_PERZYNA">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_ETA_PERZYNA">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>70</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1000.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_SIGMA_Y_PERZYNA">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_SIGMA_Y_PERZYNA">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>σ_y</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="RHEO_BOX_PERZYNA">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>281</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_PERZYNA">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>261</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Perzyna.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_ETA_PERZYNA">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>η</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E_PERZYNA">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>80000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>70000.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ELASTIC_PLASTIC_ISO">
+     <attribute name="title">
+      <string>Elastik Plastik iso</string>
+     </attribute>
+     <widget class="QGroupBox" name="RHEO_BOX_ELASTIC_PLASTIC_ISO">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>281</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_ELASTIC_PLASTIC_ISO">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>261</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Perzyna.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E_ELASTIC_PLASTIC_ISO">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>80000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>70000.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_SIGMA_Y_ELASTIC_PLASTIC_ISO">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_K_ELASTIC_PLASTIC_ISO_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>K</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E_ELASTIC_PLASTIC_ISO">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_SIGMA_Y_PERZYNA_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>σ_y</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_K_ELASTIC_PLASTIC_ISO">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>70</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1000.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ELASTIC_PLASTIC_KIN_3">
+     <attribute name="title">
+      <string>Elastik Plastik kin</string>
+     </attribute>
+     <widget class="QDoubleSpinBox" name="VAL_H_ELASTIC_PLASTIC_KIN">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>70</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1000.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_K_ELASTIC_PLASTIC_KIN">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>H</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_SIGMA_Y_KIN">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>σ_y</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="RHEO_BOX_ELASTIC_PLASTIC_KIN">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>281</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_ELASTIC_PLASTIC_KIN">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>301</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Perzyna.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E_ELASTIC_PLASTIC_KIN">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_SIGMA_Y_ELASTIC_PLASTIC_KIN">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E_ELASTIC_PLASTIC_KIN">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>80000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>70000.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Modell_Plot">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>10</y>
+     <width>671</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>8</horstretch>
+     <verstretch>8</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="title">
+    <string>Modell Plots</string>
+   </property>
+   <widget class="QGroupBox" name="Stress_Time_Plot">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>651</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Stress over Time</string>
+    </property>
+    <widget class="QWidget" name="PLOT_WIN_STRESS_TIME" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>621</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>621</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="PLOT_BOX_STRESS_TIME"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>220</y>
+        <width>621</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="TOOL_BOX_STRESS_TIME"/>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Stress_Strain_Plot">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>651</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Stress over Strain</string>
+    </property>
+    <widget class="QWidget" name="PLOT_WIN_STRESS_STRAIN" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>621</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>621</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="PLOT_BOX_STRESS_STRAIN"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>240</y>
+        <width>621</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="TOOL_BOX_STRESS_STRAIN"/>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="PLOT_MODEL">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLOT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LOGO_THM">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>PIC/logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Base_Modell_Combination">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>571</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Base Model Combination</string>
+   </property>
+   <widget class="QCheckBox" name="CB_COMBI_HOOK">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>71</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hook</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_NEO_HOOK">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>71</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Neo Hook</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_MAXWELL">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>71</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Maxwell</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_KELVIN_VOIGT">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kelvin Voigt</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_ZENER">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zener</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_PERZYNA">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>40</y>
+      <width>71</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Perzyna</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_ELASTIC_PLASTIC_ISO">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Elastic Plastic Iso</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_ELASTIC_PLASTIC_KIN">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>40</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Elastic Plastic kin </string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI_SPLIT">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>20</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Split combined Model</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_COMBI">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>40</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Combine</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Loading_Definition">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>571</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Loading Definition </string>
+   </property>
+   <widget class="QGroupBox" name="Loading_Plot">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>551</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Loading Plot</string>
+    </property>
+    <widget class="QWidget" name="PLOT_WIN_LOADING" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>531</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>531</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="PLOT_BOX_LOADING"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>140</y>
+        <width>531</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="TOOL_BOX_LOADING"/>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="BASIC_PARAMETER">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>171</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Basic Parameter</string>
+    </property>
+    <widget class="QDoubleSpinBox" name="VAL_STRAIN">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="decimals">
+      <number>4</number>
+     </property>
+     <property name="maximum">
+      <double>80000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.060000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DEPS_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>47</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Δε&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt; [mm/s]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DT">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>47</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DT [sec]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="T">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>47</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>T [sec]</string>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="VAL_DT">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="decimals">
+      <number>2</number>
+     </property>
+     <property name="maximum">
+      <double>80000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.010000000000000</double>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="VAL_TIME">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="decimals">
+      <number>2</number>
+     </property>
+     <property name="maximum">
+      <double>80000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>40.000000000000000</double>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="DIFFERENT_STRESS">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>171</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Differernt Stress</string>
+    </property>
+    <widget class="QDoubleSpinBox" name="VAL_STRAIN_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="decimals">
+      <number>4</number>
+     </property>
+     <property name="maximum">
+      <double>80000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.600000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DEPS_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Δε&lt;/span&gt;&lt;span style=&quot; font-size:8pt; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; [mm/s]&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="VAL_TIME_HIGH_STRAIN">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="decimals">
+      <number>2</number>
+     </property>
+     <property name="maximum">
+      <double>80000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>2.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="TIME_HIGH_STRESS">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;T&lt;span style=&quot; vertical-align:sub;&quot;&gt;HIGH ST &lt;/span&gt;[sec]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="JUMPS_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>47</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JUMPS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="JUPMS_DIFFERENT_STRESS">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>3</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="STRESS_RELAX">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>20</y>
+      <width>171</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Stress Relax</string>
+    </property>
+    <widget class="QDoubleSpinBox" name="VAL_TIME_STRESS">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="decimals">
+      <number>4</number>
+     </property>
+     <property name="maximum">
+      <double>80000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.600000000000000</double>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="VAL_TIME_RELAX">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="decimals">
+      <number>2</number>
+     </property>
+     <property name="maximum">
+      <double>80000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>40.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="T_RELAX">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;T&lt;span style=&quot; vertical-align:sub;&quot;&gt;RELAX &lt;/span&gt;[sec]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="JUMPS">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>47</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JUMPS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="JUMP_STRESS_RELAX">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="T_STRESS">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;T&lt;span style=&quot; vertical-align:sub;&quot;&gt;STRESS &lt;/span&gt;[sec]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="PLOT_LOADING">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLOT</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_LOAD_STRESS_HIGH_STRESS">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>150</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+ STRESS | ++  STRESS</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_LOAD_STRESS_CICLE">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+ SRESS CICLE</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_LOAD_POS_NEG_STRESS">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+ STRESS | -  STRESS</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_LOAD_POS_STRESS">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+ STRESS</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_LOAD_STRESS_RELAX">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>150</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+ STRESS | 0  STRESS</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_LOAD_STRESS_RELAX_CICLE">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>170</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+0 STRESS CICLE</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
