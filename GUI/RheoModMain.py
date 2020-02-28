@@ -208,7 +208,8 @@ class Ui(QtWidgets.QDialog):
                     self.fdEPST[:,K+2]=0,t+st+hold
                     if i<(jump*2-1):
                             self.fdEPST[:,K+3]=-sr,t+st+hold+dt
-                    K=K+4                         
+                    K=K+4 
+                print(self.fdEPST)      
             # ================================================================
             #  + STRESS RELAX      
             # ================================================================ 

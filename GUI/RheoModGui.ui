@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1258</width>
-    <height>847</height>
+    <width>1454</width>
+    <height>906</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -28,8 +28,8 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>571</width>
-     <height>171</height>
+     <width>611</width>
+     <height>201</height>
     </rect>
    </property>
    <property name="title">
@@ -40,12 +40,12 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>551</width>
-      <height>141</height>
+      <width>591</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>7</number>
     </property>
     <widget class="QWidget" name="HOOK">
      <attribute name="title">
@@ -55,7 +55,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -74,7 +74,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -88,8 +88,8 @@
        <rect>
         <x>260</x>
         <y>10</y>
-        <width>281</width>
-        <height>101</height>
+        <width>311</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="title">
@@ -100,8 +100,8 @@
         <rect>
          <x>10</x>
          <y>20</y>
-         <width>261</width>
-         <height>71</height>
+         <width>291</width>
+         <height>101</height>
         </rect>
        </property>
        <property name="text">
@@ -124,7 +124,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -143,7 +143,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -157,8 +157,8 @@
        <rect>
         <x>260</x>
         <y>10</y>
-        <width>281</width>
-        <height>101</height>
+        <width>311</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="title">
@@ -169,8 +169,8 @@
         <rect>
          <x>10</x>
          <y>20</y>
-         <width>261</width>
-         <height>71</height>
+         <width>291</width>
+         <height>101</height>
         </rect>
        </property>
        <property name="text">
@@ -193,7 +193,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -212,7 +212,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -226,8 +226,8 @@
        <rect>
         <x>260</x>
         <y>10</y>
-        <width>281</width>
-        <height>101</height>
+        <width>311</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="title">
@@ -238,8 +238,8 @@
         <rect>
          <x>10</x>
          <y>20</y>
-         <width>261</width>
-         <height>71</height>
+         <width>291</width>
+         <height>101</height>
         </rect>
        </property>
        <property name="text">
@@ -257,7 +257,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -270,7 +270,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -286,6 +286,139 @@
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="ZENER">
+     <attribute name="title">
+      <string>Zener</string>
+     </attribute>
+     <widget class="QGroupBox" name="RHEO_BOX_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>311</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rheological Model</string>
+      </property>
+      <widget class="QLabel" name="RHEO_ZENER">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>291</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>PIC/Rheo_Zener.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E1_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E1 [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_ETA_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>η</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_ETA_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>80</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1333.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E1_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LABEL_VAL_E2_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E2 [N/mm² =Mpa]</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VAL_E2_ZENER">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>50</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <double>8000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="KELVINVOIGT">
      <attribute name="title">
       <string>Kelvin Voigt</string>
@@ -294,7 +427,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -313,7 +446,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -326,7 +459,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -339,7 +472,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -359,8 +492,8 @@
        <rect>
         <x>260</x>
         <y>10</y>
-        <width>281</width>
-        <height>101</height>
+        <width>311</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="title">
@@ -371,8 +504,8 @@
         <rect>
          <x>10</x>
          <y>20</y>
-         <width>261</width>
-         <height>71</height>
+         <width>291</width>
+         <height>101</height>
         </rect>
        </property>
        <property name="text">
@@ -387,139 +520,6 @@
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="ZENER">
-     <attribute name="title">
-      <string>Zener</string>
-     </attribute>
-     <widget class="QGroupBox" name="RHEO_BOX_ZENER">
-      <property name="geometry">
-       <rect>
-        <x>260</x>
-        <y>10</y>
-        <width>281</width>
-        <height>101</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>Rheological Model</string>
-      </property>
-      <widget class="QLabel" name="RHEO_ZENER">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>20</y>
-         <width>261</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>PIC/Rheo_Zener.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QLabel" name="LABEL_VAL_E1_ZENER">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>91</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>E1 [N/mm² =Mpa]</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="LABEL_VAL_ETA_ZENER">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>70</y>
-        <width>91</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>η</string>
-      </property>
-     </widget>
-     <widget class="QDoubleSpinBox" name="VAL_ETA_ZENER">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>70</y>
-        <width>91</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="decimals">
-       <number>2</number>
-      </property>
-      <property name="maximum">
-       <double>8000.000000000000000</double>
-      </property>
-      <property name="value">
-       <double>1333.000000000000000</double>
-      </property>
-     </widget>
-     <widget class="QDoubleSpinBox" name="VAL_E1_ZENER">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>10</y>
-        <width>91</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="decimals">
-       <number>2</number>
-      </property>
-      <property name="maximum">
-       <double>8000.000000000000000</double>
-      </property>
-      <property name="value">
-       <double>300.000000000000000</double>
-      </property>
-     </widget>
-     <widget class="QLabel" name="LABEL_VAL_E2_ZENER">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>40</y>
-        <width>91</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>E2 [N/mm² =Mpa]</string>
-      </property>
-     </widget>
-     <widget class="QDoubleSpinBox" name="VAL_E2_ZENER">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>40</y>
-        <width>91</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="decimals">
-       <number>2</number>
-      </property>
-      <property name="maximum">
-       <double>8000.000000000000000</double>
-      </property>
-      <property name="value">
-       <double>300.000000000000000</double>
-      </property>
-     </widget>
-    </widget>
     <widget class="QWidget" name="PERZYNA">
      <attribute name="title">
       <string>Perzyna</string>
@@ -528,7 +528,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -541,7 +541,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>70</y>
+        <y>80</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -560,7 +560,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -579,7 +579,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -593,8 +593,8 @@
        <rect>
         <x>260</x>
         <y>10</y>
-        <width>281</width>
-        <height>101</height>
+        <width>311</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="title">
@@ -605,8 +605,8 @@
         <rect>
          <x>10</x>
          <y>20</y>
-         <width>261</width>
-         <height>71</height>
+         <width>291</width>
+         <height>101</height>
         </rect>
        </property>
        <property name="text">
@@ -624,7 +624,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>70</y>
+        <y>80</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -637,7 +637,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -662,8 +662,8 @@
        <rect>
         <x>260</x>
         <y>10</y>
-        <width>281</width>
-        <height>101</height>
+        <width>311</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="title">
@@ -674,8 +674,8 @@
         <rect>
          <x>10</x>
          <y>20</y>
-         <width>261</width>
-         <height>71</height>
+         <width>291</width>
+         <height>101</height>
         </rect>
        </property>
        <property name="text">
@@ -693,7 +693,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -712,7 +712,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -731,7 +731,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>70</y>
+        <y>80</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -744,7 +744,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -757,7 +757,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -770,7 +770,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>70</y>
+        <y>80</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -794,7 +794,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>70</y>
+        <y>80</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -813,7 +813,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>70</y>
+        <y>80</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -826,7 +826,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -840,8 +840,8 @@
        <rect>
         <x>260</x>
         <y>10</y>
-        <width>281</width>
-        <height>101</height>
+        <width>311</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="title">
@@ -852,8 +852,8 @@
         <rect>
          <x>10</x>
          <y>20</y>
-         <width>261</width>
-         <height>71</height>
+         <width>291</width>
+         <height>101</height>
         </rect>
        </property>
        <property name="text">
@@ -871,7 +871,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -884,7 +884,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>40</y>
+        <y>50</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -903,7 +903,7 @@
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>10</y>
+        <y>20</y>
         <width>91</width>
         <height>22</height>
        </rect>
@@ -927,10 +927,10 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>630</x>
      <y>10</y>
-     <width>671</width>
-     <height>831</height>
+     <width>811</width>
+     <height>881</height>
     </rect>
    </property>
    <property name="sizePolicy">
@@ -947,8 +947,8 @@
      <rect>
       <x>10</x>
       <y>50</y>
-      <width>651</width>
-      <height>371</height>
+      <width>791</width>
+      <height>391</height>
      </rect>
     </property>
     <property name="title">
@@ -959,8 +959,8 @@
       <rect>
        <x>20</x>
        <y>20</y>
-       <width>621</width>
-       <height>341</height>
+       <width>761</width>
+       <height>361</height>
       </rect>
      </property>
      <property name="layoutDirection">
@@ -974,8 +974,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>621</width>
-        <height>291</height>
+        <width>761</width>
+        <height>311</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="PLOT_BOX_STRESS_TIME"/>
@@ -984,8 +984,8 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>290</y>
-        <width>621</width>
+        <y>310</y>
+        <width>761</width>
         <height>51</height>
        </rect>
       </property>
@@ -997,9 +997,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>430</y>
-      <width>651</width>
-      <height>391</height>
+      <y>450</y>
+      <width>791</width>
+      <height>421</height>
      </rect>
     </property>
     <property name="title">
@@ -1010,8 +1010,8 @@
       <rect>
        <x>20</x>
        <y>20</y>
-       <width>621</width>
-       <height>361</height>
+       <width>761</width>
+       <height>391</height>
       </rect>
      </property>
      <property name="layoutDirection">
@@ -1025,8 +1025,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>621</width>
-        <height>311</height>
+        <width>761</width>
+        <height>341</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="PLOT_BOX_STRESS_STRAIN"/>
@@ -1035,8 +1035,8 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>310</y>
-        <width>621</width>
+        <y>340</y>
+        <width>761</width>
         <height>51</height>
        </rect>
       </property>
@@ -1060,7 +1060,7 @@
    <widget class="QLabel" name="LOGO_THM">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>440</x>
       <y>10</y>
       <width>361</width>
       <height>41</height>
@@ -1081,8 +1081,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>190</y>
-     <width>571</width>
+     <y>220</y>
+     <width>611</width>
      <height>71</height>
     </rect>
    </property>
@@ -1233,9 +1233,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>270</y>
-     <width>571</width>
-     <height>571</height>
+     <y>290</y>
+     <width>611</width>
+     <height>601</height>
     </rect>
    </property>
    <property name="title">
@@ -1246,8 +1246,8 @@
      <rect>
       <x>10</x>
       <y>220</y>
-      <width>551</width>
-      <height>341</height>
+      <width>591</width>
+      <height>371</height>
      </rect>
     </property>
     <property name="title">
@@ -1258,8 +1258,8 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>531</width>
-       <height>311</height>
+       <width>571</width>
+       <height>341</height>
       </rect>
      </property>
      <property name="layoutDirection">
@@ -1273,8 +1273,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>531</width>
-        <height>261</height>
+        <width>571</width>
+        <height>291</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="PLOT_BOX_LOADING"/>
@@ -1283,8 +1283,8 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>260</y>
-        <width>531</width>
+        <y>290</y>
+        <width>571</width>
         <height>51</height>
        </rect>
       </property>
@@ -1328,12 +1328,12 @@
       <rect>
        <x>10</x>
        <y>90</y>
-       <width>47</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Δε&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt; [mm/s]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;dε&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt; [mm/s]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="DT">
@@ -1447,7 +1447,7 @@
       </font>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Δε&lt;/span&gt;&lt;span style=&quot; font-size:8pt; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; [mm/s]&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;dε&lt;/span&gt;&lt;span style=&quot; font-size:8pt; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; [mm/s]&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QDoubleSpinBox" name="VAL_TIME_HIGH_STRAIN">
