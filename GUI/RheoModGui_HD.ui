@@ -32,6 +32,11 @@
      <height>201</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
+   </property>
    <property name="title">
     <string>Base Model and Parameter</string>
    </property>
@@ -43,6 +48,11 @@
       <width>591</width>
       <height>171</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="currentIndex">
      <number>7</number>
@@ -799,6 +809,11 @@
         <height>22</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <property name="decimals">
        <number>2</number>
       </property>
@@ -818,6 +833,11 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <property name="text">
        <string>H</string>
       </property>
@@ -830,6 +850,11 @@
         <width>91</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
       </property>
       <property name="text">
        <string>σ_y</string>
@@ -844,6 +869,11 @@
         <height>131</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <property name="title">
        <string>Rheological Model</string>
       </property>
@@ -855,6 +885,11 @@
          <width>291</width>
          <height>101</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
        </property>
        <property name="text">
         <string/>
@@ -876,6 +911,11 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <property name="text">
        <string>E [N/mm² =Mpa]</string>
       </property>
@@ -888,6 +928,11 @@
         <width>91</width>
         <height>22</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
       </property>
       <property name="decimals">
        <number>2</number>
@@ -907,6 +952,11 @@
         <width>91</width>
         <height>22</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
       </property>
       <property name="decimals">
        <number>2</number>
@@ -939,6 +989,11 @@
      <verstretch>8</verstretch>
     </sizepolicy>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
+   </property>
    <property name="title">
     <string>Modell Plots</string>
    </property>
@@ -951,6 +1006,11 @@
       <height>391</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="title">
      <string>Stress over Time</string>
     </property>
@@ -962,6 +1022,11 @@
        <width>761</width>
        <height>361</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
@@ -978,6 +1043,11 @@
         <height>311</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <layout class="QVBoxLayout" name="PLOT_BOX_STRESS_TIME"/>
      </widget>
      <widget class="QWidget" name="verticalLayoutWidget">
@@ -988,6 +1058,11 @@
         <width>761</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
       </property>
       <layout class="QVBoxLayout" name="TOOL_BOX_STRESS_TIME"/>
      </widget>
@@ -1002,6 +1077,11 @@
       <height>421</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="title">
      <string>Stress over Strain</string>
     </property>
@@ -1013,6 +1093,11 @@
        <width>761</width>
        <height>391</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
@@ -1029,6 +1114,11 @@
         <height>341</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <layout class="QVBoxLayout" name="PLOT_BOX_STRESS_STRAIN"/>
      </widget>
      <widget class="QWidget" name="verticalLayoutWidget_4">
@@ -1039,6 +1129,11 @@
         <width>761</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
       </property>
       <layout class="QVBoxLayout" name="TOOL_BOX_STRESS_STRAIN"/>
      </widget>
@@ -1053,6 +1148,11 @@
       <height>23</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>PLOT</string>
     </property>
@@ -1065,6 +1165,11 @@
       <width>361</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string/>
@@ -1086,6 +1191,11 @@
      <height>71</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
+   </property>
    <property name="title">
     <string>Base Model Combination</string>
    </property>
@@ -1097,6 +1207,11 @@
       <width>71</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>Hook</string>
@@ -1114,6 +1229,11 @@
       <height>17</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>Neo Hook</string>
     </property>
@@ -1126,6 +1246,11 @@
       <width>71</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>Maxwell</string>
@@ -1140,6 +1265,11 @@
       <height>17</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>Kelvin Voigt</string>
     </property>
@@ -1152,6 +1282,11 @@
       <width>51</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>Zener</string>
@@ -1166,6 +1301,11 @@
       <height>17</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>Perzyna</string>
     </property>
@@ -1178,6 +1318,11 @@
       <width>121</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>Elastic Plastic Iso</string>
@@ -1192,6 +1337,11 @@
       <height>17</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>Elastic Plastic kin </string>
     </property>
@@ -1204,6 +1354,11 @@
       <width>121</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>Split combined Model</string>
@@ -1220,6 +1375,11 @@
       <width>111</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>Combine</string>
@@ -1238,6 +1398,11 @@
      <height>601</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
+   </property>
    <property name="title">
     <string>Loading Definition </string>
    </property>
@@ -1250,6 +1415,11 @@
       <height>371</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="title">
      <string>Loading Plot</string>
     </property>
@@ -1261,6 +1431,11 @@
        <width>571</width>
        <height>341</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
@@ -1277,6 +1452,11 @@
         <height>291</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <layout class="QVBoxLayout" name="PLOT_BOX_LOADING"/>
      </widget>
      <widget class="QWidget" name="verticalLayoutWidget_6">
@@ -1287,6 +1467,11 @@
         <width>571</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
       </property>
       <layout class="QVBoxLayout" name="TOOL_BOX_LOADING"/>
      </widget>
@@ -1301,6 +1486,11 @@
       <height>121</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="title">
      <string>Basic Parameter</string>
     </property>
@@ -1312,6 +1502,11 @@
        <width>81</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="decimals">
       <number>4</number>
@@ -1332,6 +1527,11 @@
        <height>21</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;dε&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt; [mm/s]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -1344,6 +1544,11 @@
        <width>47</width>
        <height>21</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="text">
       <string>DT [sec]</string>
@@ -1358,6 +1563,11 @@
        <height>21</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
      <property name="text">
       <string>T [sec]</string>
      </property>
@@ -1370,6 +1580,11 @@
        <width>81</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="decimals">
       <number>2</number>
@@ -1389,6 +1604,11 @@
        <width>81</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="decimals">
       <number>2</number>
@@ -1410,6 +1630,11 @@
       <height>121</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="title">
      <string>Differernt Stress</string>
     </property>
@@ -1421,6 +1646,11 @@
        <width>81</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="decimals">
       <number>4</number>
@@ -1443,6 +1673,7 @@
      </property>
      <property name="font">
       <font>
+       <family>Arial</family>
        <pointsize>9</pointsize>
       </font>
      </property>
@@ -1458,6 +1689,11 @@
        <width>81</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="decimals">
       <number>2</number>
@@ -1478,6 +1714,11 @@
        <height>21</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;T&lt;span style=&quot; vertical-align:sub;&quot;&gt;HIGH ST &lt;/span&gt;[sec]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -1491,6 +1732,11 @@
        <height>21</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JUMPS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -1503,6 +1749,11 @@
        <width>81</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="value">
       <number>3</number>
@@ -1518,6 +1769,11 @@
       <height>121</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="title">
      <string>Stress Relax</string>
     </property>
@@ -1529,6 +1785,11 @@
        <width>81</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="decimals">
       <number>4</number>
@@ -1549,6 +1810,11 @@
        <height>22</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
      <property name="decimals">
       <number>2</number>
      </property>
@@ -1568,6 +1834,11 @@
        <height>21</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;T&lt;span style=&quot; vertical-align:sub;&quot;&gt;RELAX &lt;/span&gt;[sec]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -1580,6 +1851,11 @@
        <width>47</width>
        <height>21</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JUMPS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -1594,6 +1870,11 @@
        <height>22</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
      <property name="value">
       <number>3</number>
      </property>
@@ -1606,6 +1887,11 @@
        <width>91</width>
        <height>21</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;T&lt;span style=&quot; vertical-align:sub;&quot;&gt;STRESS &lt;/span&gt;[sec]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -1621,6 +1907,11 @@
       <height>23</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>PLOT</string>
     </property>
@@ -1633,6 +1924,11 @@
       <width>141</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>+ STRESS | ++  STRESS</string>
@@ -1649,6 +1945,11 @@
       <width>141</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>+ SRESS CICLE</string>
@@ -1669,6 +1970,11 @@
       <height>17</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>+ STRESS | -  STRESS</string>
     </property>
@@ -1684,6 +1990,11 @@
       <width>101</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>+ STRESS</string>
@@ -1704,6 +2015,11 @@
       <height>17</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
     <property name="text">
      <string>+ STRESS | 0  STRESS</string>
     </property>
@@ -1719,6 +2035,11 @@
       <width>141</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
     </property>
     <property name="text">
      <string>+0 STRESS CICLE</string>

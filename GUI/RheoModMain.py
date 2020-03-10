@@ -40,8 +40,8 @@
 # =============================================================================
 # Import Section
 # =============================================================================
-
-from PyQt5 import QtWidgets,uic
+#
+from PyQt5 import uic, QtWidgets
 from matplotlib.backends.backend_qt5agg import (
     FigureCanvasQTAgg as FigureCanvas,
     NavigationToolbar2QT as NavigationToolbar)
@@ -58,14 +58,14 @@ from RheoModModel import model
 # GUI CLASS UI
 # =============================================================================
 
-class Ui(QtWidgets.QDialog):
+class Ui(QtWidgets.QMainWindow):
     # Init UI CLASS
     def __init__(self):
         super(Ui, self).__init__()
         # ====================================================================
         # Load UI XML DATA  
         # ====================================================================
-        uic.loadUi('RheoModGui_HD.ui', self)
+        uic.loadUi('RheoModGui_HD_3.ui', self)
         # ====================================================================
         # Connect Buttons with the Plot functions      
         # ====================================================================    
@@ -79,8 +79,8 @@ class Ui(QtWidgets.QDialog):
         
     def plot_in_gui(self,x,y,plot_label,x_label,y_label,
                     Title,WINDOW,Plot_on,grid='on',number_of_plots=1):
-        fig=Figure()
-        model = fig.add_subplot(111)
+        fig=Figure(tight_layout=True)
+        model = fig.add_subplot()
         for i in range(0,number_of_plots):
             if Plot_on[i]==True:
                 model.plot(x,y[:,i+1],'-' , label=plot_label[i])
@@ -89,6 +89,7 @@ class Ui(QtWidgets.QDialog):
         model.grid(grid)
         model.legend()
         model.set_title(Title)
+        fig.tight_layout()
         # ====================================================================
         # PLOT WINDOW SETTING FOR LOADING PLOTS   
         # ==================================================================== 
